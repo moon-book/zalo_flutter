@@ -92,7 +92,7 @@ class ZaloFlutter {
         'extInfo': externalInfo,
         'refreshToken': refreshToken,
       },
-    ).setTimeout(_timeout);
+    );
     return rs;
   }
 
